@@ -1,0 +1,141 @@
+body, h2, p, form {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    background: #f0f2f5;
+    padding: 20px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+
+.new-chat-form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.new-chat-btn {
+    background-color: #00b894;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.new-chat-btn:hover {
+    background-color: #019875;
+}
+
+.chat-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.from, .to, .time, .date {
+    margin: 8px 0;
+    color: #555;
+}
+
+/* Message box */
+.msg {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Action buttons (edit and delete) */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.edit-btn, .delete-btn {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.edit-btn {
+    background-color: #0984e3;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #075bc0;
+}
+
+.delete-btn {
+    background-color: #d63031;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+
+.chat-form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-field {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus {
+    border-color: #00b894;
+    outline: none;
+}
+
+
+.textarea-field {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.edit-btn {
+    background-color: #ffc107;
+    color: black;
+}
+
+.edit-btn:hover {
+    background-color: #e0a800;
+}
